@@ -1,9 +1,5 @@
 language: python
 dist: xenial
-env:
-  global:
-    - LD_PRELOAD=/lib/x86_64-linux-gnu/libSegFault.so
-    - SEGFAULT_SIGNALS=all
 script: python setup.py test
 deploy:
   provider: pypi
