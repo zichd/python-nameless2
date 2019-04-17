@@ -1,5 +1,4 @@
 language: python
-dist: xenial
 script: python setup.py test
 deploy:
   provider: pypi
